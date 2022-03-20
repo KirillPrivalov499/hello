@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+font-size: 12px;
+font-family: Lobster, cursive;
+}
+#header {
+height: 260px;
+}
+#content {
+height: 600px;
+background-color: #B0E0E6;
+border: 1px solid #999;
+font-size: 12pt;
+}
+#footer {
+height: 200px;
+text-align: center;
+font-size: 14pt;
+}
+
+/* Simple CSS menu */
+.menu_simple {
+    width: 100%;
+    background-color: royalblue;
+}
+.menu_simple ul {
+    margin: 0; padding: 0;
+    float: left;
+}
+.menu_simple ul li {
+    display: inline;
+}
+.menu_simple ul li a {
+    float: left; text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    font-size: 18px;
+    background-color:royalblue;
+}
+ .menu_simple ul li a:visited {
+    color: white;
+}
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+        color: white;
+        background-color:darkblue;
+}
+br { clear:left }
